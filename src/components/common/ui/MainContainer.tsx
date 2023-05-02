@@ -1,4 +1,4 @@
-import Checkout from "@components/checkout/index";
+import CheckoutForm from "@components/checkout/index";
 
 function MainContainer() {
   return (
@@ -13,7 +13,7 @@ function MainContainer() {
         <h2 className="text-sm font-courierPrime text-center -mt-6 text-gray-500">
           Checkout
         </h2>
-        <Checkout />
+        <CheckoutForm />
       </div>
     </main>
   );

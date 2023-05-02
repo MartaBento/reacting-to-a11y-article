@@ -1,17 +1,15 @@
 import CheckoutTitle from "@components/checkout/partials/CheckoutTitle";
 import Divider from "@components/checkout/partials/Divider";
 import ProductOverview from "@components/checkout/products/ProductOverview";
+import ShippingInformationForm from "@components/checkout/form/ShippingInformationForm";
 
-function Checkout() {
+function CheckoutForm() {
   return (
     <>
       <CheckoutTitle />
       <div className="flex flex-col-reverse md:flex-row justify-between mt-16 px-6 max-w-full">
         <div className="md:flex-grow-1 md:flex-shrink-0 md:w-3/5">
-          {/* Start working here. */}
-          <h1 className="font-courierPrime text-sm mt-12 md:mt-0">
-            The new form will be placed here. 🚀
-          </h1>
+          <ShippingInformationForm />
         </div>
         <div className="hidden md:flex">
           <Divider />
@@ -24,4 +22,4 @@ function Checkout() {
   );
 }
 
-export default Checkout;
+export default CheckoutForm;
