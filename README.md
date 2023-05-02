@@ -1,5 +1,14 @@
 # React-ing to accessibility: Building inclusive e-commerce forms that everyone can use
 
+## Base
+
+![image](https://user-images.githubusercontent.com/38409011/235715391-86439d46-1725-4b1e-b19a-114c3c37653a.png)
+
+## Final result
+
+![image](https://user-images.githubusercontent.com/38409011/235715816-fd5bdf7c-e36d-4120-8d73-5270efd99dec.png)
+
+
 ## Main Technologies
 - React
 - Typescript
