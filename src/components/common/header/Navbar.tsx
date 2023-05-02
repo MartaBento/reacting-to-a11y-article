@@ -1,7 +1,7 @@
-import NavbarImage from "./NavbarImage";
-import NavbarLink from "./NavbarLink";
-import companyLogo from "../../../assets/navbar/GreeneryLogo.png";
-import ShoppingCart from "./ShoppingCart";
+import NavbarImage from "@components/common/header/NavbarImage";
+import NavbarLink from "@components/common/header/NavbarLink";
+import CompanyLogo from "@assets/navbar/GreeneryLogo.png";
+import ShoppingCart from "@components/common/header/ShoppingCart";
 
 import { FaBars } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ function Navbar() {
               aria-label="Logo & Name of the company"
             >
               <NavbarImage
-                imageSrc={companyLogo}
+                imageSrc={CompanyLogo}
                 imageAlt="Logo for the Greenery Co."
               />
               <span className="text-white text-2xl font-courierPrime">

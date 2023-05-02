@@ -1,4 +1,4 @@
-import Checkout from "../../checkout";
+import Checkout from "@components/checkout/index";
 
 function MainContainer() {
   return (

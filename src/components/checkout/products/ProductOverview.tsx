@@ -1,4 +1,6 @@
-import ProductInformation from "./ProductInformation";
+import ProductInformation from "@components/checkout/products/ProductInformation";
+import ZZPlant from "@assets/products/Product1.jpg";
+import Monstera from "@assets/products/Product2.jpg";
 
 function ProductOverview() {
   return (
@@ -6,9 +8,9 @@ function ProductOverview() {
       <h4 className="font-bold mb-8 text-lg font-courierPrime text-center underline decoration-wavy decoration-timberwolf">
         Your plant haul
       </h4>
-      <div className="flex flex-row md:flex-col items-center justify-center md:space-y-8">
+      <div className="flex flex-row md:flex-col items-center justify-center md:space-y-8 space-x-8">
         <ProductInformation
-          imageSrc="src/assets/products/Product1.jpg"
+          imageSrc={ZZPlant}
           altDescription="An image of a ZZ plant being held by a person"
           plantName="ZZ Plant"
           plantSpecies="Zamioculcas zamiifolia"
@@ -16,7 +18,7 @@ function ProductOverview() {
           price={32}
         />
         <ProductInformation
-          imageSrc="src/assets/products/Product2.jpg"
+          imageSrc={Monstera}
           altDescription="An image of a Monstera plant being held by a person"
           plantName="Monstera"
           plantSpecies="Monstera Deliciosa"
