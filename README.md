@@ -18,6 +18,10 @@ If you see something major that should be improved/changed, feel free to open a 
 
 ## Side notes
 
+The `main` branch contains all the necessary code for you to start working on the project, with the main layout and components already created.
+
+However, if you want to jump until the final project with everything already created, navigate to the `final` branch.
+
 This app is for demonstration purposes only. Some parts of the application don't work like they are intented to in real life because the main focus is the form part.
 
 Little to no tests were written and it probably has a lot of things to improve. 
