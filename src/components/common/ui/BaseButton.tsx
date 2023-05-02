@@ -8,7 +8,7 @@ type ButtonProps = {
 function BaseButton({ title, className, type, onClick }: ButtonProps) {
   return (
     <button
-      className={`${className} rounded-full font-courierPrime p-2 text-center underline decoration-wavy decoration-timberwolf`}
+      className={`${className} bg-sage rounded-full font-courierPrime p-2 text-center underline decoration-wavy decoration-timberwolf`}
       aria-label={title}
       type={type || "button"}
       onClick={onClick}
