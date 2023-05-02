@@ -8,7 +8,7 @@ function ProductOverview() {
       <h4 className="font-bold mb-8 text-lg font-courierPrime text-center underline decoration-wavy decoration-timberwolf">
         Your plant haul
       </h4>
-      <div className="flex flex-row md:flex-col items-center justify-center md:space-y-8 space-x-8">
+      <div className="flex flex-row md:flex-col items-center justify-center space-x-8 md:space-y-8 md:space-x-0">
         <ProductInformation
           imageSrc={ZZPlant}
           altDescription="An image of a ZZ plant being held by a person"
