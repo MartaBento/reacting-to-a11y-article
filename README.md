@@ -22,7 +22,7 @@ This package is powered by Vite.
 This repository aims to provide technical support for the article `React-ing to accessibility: Building inclusive e-commerce forms that everyone can use`. 
 The main goal is to aid developers & other stakeholders to build accessible forms, using Radix Primitives, with a simple webpage for an ecommerce.
 
-In order to read the full-article, please take a look on [Medium](https://changeme).
+In order to read the full-article, please take a look on [Medium](https://martafbento.medium.com/react-ing-to-accessibility-building-accessible-e-commerce-forms-that-everyone-can-use-9713daf7ba69).
 If you see something major that should be improved/changed, feel free to open a Pull Request.
 
 ## Side notes
